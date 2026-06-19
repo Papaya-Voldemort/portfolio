@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"providers": {
+			"emailPassword": true,
+			"googleSignIn": {
+				"oAuthBrandDisplayName": "Personal Website",
+				"supportEmail": "elinelson992@gmail.com"
+			}
+		}
+	},
+	"firestore": {
+		"rules": "firestore.rules",
+		"indexes": "firestore.indexes.json"
+	}
+}
